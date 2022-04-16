@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32328.378
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SlidingWindow", "SlidingWindow", "{5ABD34AF-DDCF-4FB7-AB73-980C90637C99}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SlidingWindow", "SlidingWindow\SlidingWindow.csproj", "{49428721-5B2B-4A7B-83B8-13CCB024F3CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SlidingWindowTest", "SlidingWindowTest\SlidingWindowTest.csproj", "{43CDA55E-8335-4DCC-BF08-C930E6BCF1FE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{49428721-5B2B-4A7B-83B8-13CCB024F3CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49428721-5B2B-4A7B-83B8-13CCB024F3CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49428721-5B2B-4A7B-83B8-13CCB024F3CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49428721-5B2B-4A7B-83B8-13CCB024F3CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43CDA55E-8335-4DCC-BF08-C930E6BCF1FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43CDA55E-8335-4DCC-BF08-C930E6BCF1FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43CDA55E-8335-4DCC-BF08-C930E6BCF1FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43CDA55E-8335-4DCC-BF08-C930E6BCF1FE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{49428721-5B2B-4A7B-83B8-13CCB024F3CE} = {5ABD34AF-DDCF-4FB7-AB73-980C90637C99}
+		{43CDA55E-8335-4DCC-BF08-C930E6BCF1FE} = {5ABD34AF-DDCF-4FB7-AB73-980C90637C99}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F5A92075-92BF-4322-94B9-C2AF25C4CA90}
+	EndGlobalSection
+EndGlobal

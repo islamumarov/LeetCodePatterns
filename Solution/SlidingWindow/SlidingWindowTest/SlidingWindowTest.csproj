@@ -21,7 +21,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\SlidingWindow\SlidingWindow.csproj" />
+    <ProjectReference Include="..\src\src.csproj" />
   </ItemGroup>
 
 </Project>

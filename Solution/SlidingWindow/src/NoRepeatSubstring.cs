@@ -14,18 +14,20 @@ public class NoRepeatSubstring
         int maxLen = 0;
         int startPoint = 0;
         Dictionary<char, int> cont = new Dictionary<char, int>();
-        for (int i = 0; i < str.Length; i++)
+        for (var index = 0; index < str.Length; index++)
         {
-            if (cont.ContainsKey(str[i]))
+            var t = str[index];
+            if (cont.ContainsKey(t))
             {
                 maxLen = Math.Max(maxLen, cont.Count);
-                while (cont.ContainsKey(str[i]))
+                while (cont.ContainsKey(t))
                 {
                     cont.Remove(str[startPoint]);
                     startPoint++;
                 }
             }
-            cont.Add(str[i],1);
+
+            cont.Add(t, 1);
         }
 
         return Math.Max(maxLen, cont.Count);

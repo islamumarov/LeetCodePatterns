@@ -23,4 +23,17 @@ public class MaxSubarray
 
         return maxSF;
     }
+
+
+    public static int[] Sm(int[] nums)
+    {
+        int[] prefixSum = new int[nums.Length];
+        prefixSum[0] = nums[0];
+        for (int i = 1; i < nums.Length; i++)
+        {
+            prefixSum[i] = prefixSum[i - 1] + nums[i];
+        }
+
+        return prefixSum;
+    }
 }

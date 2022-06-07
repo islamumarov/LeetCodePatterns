@@ -17,7 +17,7 @@ public class FruitsIntoBasketsV2
     /// <param name="fruits">Given the integer array fruits</param>
     /// <returns> return the maximum number of fruits you can pick.</returns>
     public static int TotalFruit(int[] fruits)
-    {               Dictionary<int, int> baskets = new Dictionary<int, int>(2);
+    {   Dictionary<int, int> baskets = new Dictionary<int, int>(2);
         int maxAmount = 0;
         int startPoint = 0;
         for (int i = 0; i < fruits.Length; i++)

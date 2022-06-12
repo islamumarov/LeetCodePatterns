@@ -27,6 +27,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "src", "IntervalProblems\src
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntervalProblemsTest", "IntervalProblems\IntervalProblemsTest\IntervalProblemsTest.csproj", "{B5585E04-FA59-4651-9991-2ADC7642A3C7}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BFS", "BFS", "{5B53D636-D925-4F14-8123-7C7F73EA9CA9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "src", "BFS\src\src.csproj", "{60838A64-3B90-4E42-9AA7-065D22B6937E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +73,10 @@ Global
 		{B5585E04-FA59-4651-9991-2ADC7642A3C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B5585E04-FA59-4651-9991-2ADC7642A3C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B5585E04-FA59-4651-9991-2ADC7642A3C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60838A64-3B90-4E42-9AA7-065D22B6937E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60838A64-3B90-4E42-9AA7-065D22B6937E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60838A64-3B90-4E42-9AA7-065D22B6937E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60838A64-3B90-4E42-9AA7-065D22B6937E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -82,6 +90,7 @@ Global
 		{17CC8292-5E8C-4B41-932E-A371691C6D94} = {28F1C688-141C-4A81-8804-2011A2347393}
 		{D75B450E-A2BC-4100-A7F8-EA0B12D415CF} = {6516A1EB-1E83-4CE3-B7E1-C59B42F9AF4B}
 		{B5585E04-FA59-4651-9991-2ADC7642A3C7} = {6516A1EB-1E83-4CE3-B7E1-C59B42F9AF4B}
+		{60838A64-3B90-4E42-9AA7-065D22B6937E} = {5B53D636-D925-4F14-8123-7C7F73EA9CA9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F5A92075-92BF-4322-94B9-C2AF25C4CA90}

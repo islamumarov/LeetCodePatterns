@@ -1,0 +1,38 @@
+using src;
+using Xunit;
+
+namespace ReverseLinkedListTests;
+
+public class ReverseTest
+{
+    [Fact]
+    public void reverse()
+    {
+        // arrange
+        var arr = new int[] { 2, 4, 6, 8, 10 };
+        int[] arr2 = new int[arr.Length];
+        Array.Copy(arr,arr2,arr.Length);
+        Array.Reverse(arr2);
+        // act
+        var list1 = Init(arr);
+        var expected = Init(arr2);
+        var  actual = ReverseLinkedList.reverse(list1);
+        // Assert
+        
+        Assert.Equal(expected.value,actual.value);
+    }
+
+    public ListNode Init(int[] arr)
+    {
+        ListNode head = new ListNode(arr[0]);
+        var node = head;
+        foreach (var i in arr[1..arr.Length])
+        {
+            node.next = new ListNode(i);
+            node = node.next;
+        }
+
+        node.next = null;
+        return head;
+    }
+}

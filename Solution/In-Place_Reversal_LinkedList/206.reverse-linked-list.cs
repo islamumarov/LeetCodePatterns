@@ -7,6 +7,7 @@
 // @lc code=start
 
 // Definition for singly-linked list.
+namespace In_Place_Reversal_LinkedList.reverse_LinkedList;
 public class ListNode {
     public int val;
     public ListNode next;
@@ -17,7 +18,7 @@ public class ListNode {
 }
 
 public class Solution {
-    public ListNode ReverseList(ListNode head) {
+    public static ListNode ReverseList(ListNode head) {
         if (head == null) return head;
 
         ListNode current = null;

@@ -5,7 +5,7 @@
  */
 
 // @lc code=start
-/**
+/*
  * Definition for singly-linked list.
  * public class ListNode {
  *     public int val;
@@ -17,6 +17,9 @@
  * }
  */
  using System.Collections.Generic;
+ using In_Place_Reversal_LinkedList.reverse_LinkedList;
+
+namespace In_Place_Reversal_LinkedList;
 public class Solution {
     public bool HasCycle(ListNode head) {
         HashSet<ListNode> set = new HashSet<ListNode>();

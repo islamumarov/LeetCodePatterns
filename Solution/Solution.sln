@@ -41,7 +41,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "src", "Dijkstra\src\src.csp
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dijkstra", "Dijkstra", "{B719B304-C616-45EF-9D3E-9AD237FC43A8}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ReverseLinkedList", "ReverseLinkedList", "{82B95284-BB88-491C-8235-9BBDBD3B1208}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LinkedListPatterns", "LinkedListPatterns", "{82B95284-BB88-491C-8235-9BBDBD3B1208}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "src", "ReverseLinkedList\src\src.csproj", "{A37FC3B0-594E-4C3A-9433-D9C7EEF23FD3}"
 EndProject

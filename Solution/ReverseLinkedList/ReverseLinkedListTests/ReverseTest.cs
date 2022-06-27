@@ -22,6 +22,19 @@ public class ReverseTest
         Assert.Equal(expected.value,actual.value);
     }
 
+    [Fact]
+    public void HashCucleTest()
+    {
+        //var list = new int[] { 3, 2, 0, -4 };
+        ListNode list = new ListNode(3);
+        var s = list.next = new ListNode(2);
+        list.next.next = new ListNode(0);
+        var d = list.next.next.next = new ListNode(-4);
+        d.next = s;
+        LinkedListCycle.HasCycle(list);
+
+    }
+
     public ListNode Init(int[] arr)
     {
         ListNode head = new ListNode(arr[0]);

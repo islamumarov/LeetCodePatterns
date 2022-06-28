@@ -7,7 +7,7 @@ public class LinkedListCycle
         if (head == null || head.next == null) return false;
         ListNode slow = head;
         ListNode fast = head;
-        while (fast != null && fast.next != null)
+        while (fast is { next: { } })
         {
             fast = fast.next.next;
             slow = slow.next;

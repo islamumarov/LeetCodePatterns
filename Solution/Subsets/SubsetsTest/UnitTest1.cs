@@ -13,4 +13,24 @@ public class UnitTest1
     Assert.Equal((int)Math.Pow(2,list.Count),actual.Count);
 
   }
+
+  [Fact]
+  private void FindSubsetWithoutDubTest()
+  {
+    int[] nums = new int[] { 1, 3, 3 };
+    IList<IList<int>> expected = new List<IList<int>>
+    {
+      new List<int>(),
+      new List<int>() { 1 },
+      new List<int>() { 3 },
+      new List<int>() { 1, 3 },
+      new List<int>() { 3, 3 },
+      new List<int>() { 1, 3, 3 },
+
+    };
+    var acctual = WithoutDuplicate.FindSubsetsWithoutDuplicates(nums);
+    
+    Assert.Equal(expected,acctual);
+    
+  }
 }

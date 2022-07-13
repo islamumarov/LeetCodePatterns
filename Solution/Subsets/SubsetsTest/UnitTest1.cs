@@ -28,9 +28,16 @@ public class UnitTest1
       new List<int>() { 1, 3, 3 },
 
     };
-    var acctual = WithoutDuplicate.FindSubsetsWithoutDuplicates(nums);
+    var actual = WithoutDuplicate.FindSubsetsWithoutDuplicates(nums);
     
-    Assert.Equal(expected,acctual);
+    Assert.Equal(expected,actual);
     
+  }
+
+  [Fact]
+  public void PermutationTest()
+  {
+    var nums = new int[] { 1, 3, 5 };
+    var actual = Permutation.Permute(nums);
   }
 }

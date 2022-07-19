@@ -11,6 +11,8 @@ public class ReorderList
      */
     public static void ReorderListNode(ListNode head)
     {
+        
+        if(head?.next is null) return;
         Stack<ListNode> stack = new Stack<ListNode>();
         var node = head;
         while (node != null)
@@ -28,6 +30,7 @@ public class ReorderList
             cur = cur.next;
             cur.next = next;
             next = next.next;
+            cur = cur.next;
         }
 
         next.next = null;

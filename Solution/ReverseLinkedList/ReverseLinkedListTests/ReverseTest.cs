@@ -34,6 +34,20 @@ public class ReverseTest
         LinkedListCycle.HasCycle(list);
 
     }
+    [Fact]
+    public void ReverseII()
+    {
+        ListNode list = new ListNode(1) { next = new ListNode(2){next = new ListNode(3)} };
+        var actual =   ReverseLinkedLisII.ReverseBetween(list, 1, 2);
+        
+    }
+    [Fact]
+    public void ReverseII2()
+    {
+        ListNode list = new ListNode(3) { next = new ListNode(5) };
+        var actual =   ReverseLinkedLisII.ReverseBetween(list, 1, 2);
+        
+    }
 
     public ListNode Init(int[] arr)
     {

@@ -55,6 +55,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "src", "Subsets\src\src.cspr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SubsetsTest", "Subsets\SubsetsTest\SubsetsTest.csproj", "{1DB41B61-D539-4FB2-A81D-07EEF4D90124}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Other", "Other", "{2FA68760-7134-4A6E-BF03-5D38BF7D2FFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnyLeetcode", "AnyLeetcode\AnyLeetcode.csproj", "{C8C06869-648F-47AB-B440-98E8DAE2E99D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -133,6 +137,10 @@ Global
 		{1DB41B61-D539-4FB2-A81D-07EEF4D90124}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1DB41B61-D539-4FB2-A81D-07EEF4D90124}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1DB41B61-D539-4FB2-A81D-07EEF4D90124}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8C06869-648F-47AB-B440-98E8DAE2E99D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8C06869-648F-47AB-B440-98E8DAE2E99D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8C06869-648F-47AB-B440-98E8DAE2E99D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8C06869-648F-47AB-B440-98E8DAE2E99D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -155,6 +163,7 @@ Global
 		{0F188879-488D-4194-BA07-D2BA3B3F6A0C} = {82B95284-BB88-491C-8235-9BBDBD3B1208}
 		{632E6154-4562-4AAE-B48C-7B746F96F6B6} = {B8BD61A3-901E-4E8A-BA6C-B711DB6152CA}
 		{1DB41B61-D539-4FB2-A81D-07EEF4D90124} = {B8BD61A3-901E-4E8A-BA6C-B711DB6152CA}
+		{C8C06869-648F-47AB-B440-98E8DAE2E99D} = {2FA68760-7134-4A6E-BF03-5D38BF7D2FFD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F5A92075-92BF-4322-94B9-C2AF25C4CA90}

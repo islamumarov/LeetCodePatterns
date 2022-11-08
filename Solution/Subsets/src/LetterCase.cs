@@ -19,4 +19,25 @@ public class LetterCase
         }
         return permut;
     }
+
+    // ------------ no context. dp task pascal triangle from daily context
+    public static List<IList<int>> Generate(int n)
+    {
+        var pascal =  new List<IList<int>>();
+        pascal.Add(new List<int>(){1});
+        if (n == 1) return pascal;
+        pascal.Add(new List<int>(){1,1});
+        for (int i = 2; i < n; i++)
+        {
+            var tmp = new List<int>(){1};
+            var l = pascal[i - 1];
+            for (int j = 1; j < l.Count ; j++)
+            {
+                tmp.Add(l[j]+l[j-1]);
+            }
+            tmp.Add(1);
+            pascal.Add(tmp);
+        }
+        return pascal;
+    }
 }

@@ -14,4 +14,13 @@ public class PermutationTest
         //Assert
         Assert.Equal(expected.Length,actual.Count);
     }
+
+    [Fact]
+    public void Test()
+    {
+        var actual = LetterCase.Generate(5);
+        
+        Assert.Equal(6, actual.Count);
+
+    }
 }

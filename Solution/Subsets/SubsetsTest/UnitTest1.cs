@@ -4,6 +4,16 @@ namespace SubsetsTest;
 
 public class UnitTest1
 {
+
+  [Fact]
+  public void Test21()
+  {
+    List<string> strList = PermutationOfBrackets.GenerateValidParentheses(3);
+    
+    Assert.Equal(5,strList.Count);
+  }
+  
+  
   [Fact]
   private void findSubsetsTest()
   {

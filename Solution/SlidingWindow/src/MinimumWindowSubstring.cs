@@ -50,4 +50,5 @@ public class MinimumWindowSubstring
 
         return resLen != int.MaxValue ? s.Substring(lr[0], lr[1] - lr[0]+1) : "";
     }
+    
 }

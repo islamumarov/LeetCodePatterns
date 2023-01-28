@@ -59,6 +59,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Other", "Other", "{2FA68760
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnyLeetcode", "AnyLeetcode\AnyLeetcode.csproj", "{C8C06869-648F-47AB-B440-98E8DAE2E99D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TwoPointers", "TwoPointers", "{B9DC068F-6FFE-4146-A1A8-5917D398C70C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "src", "TwoPointers\src\src.csproj", "{0BAECC59-BC78-4732-B0A3-CFF8AE0097A5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -141,6 +145,10 @@ Global
 		{C8C06869-648F-47AB-B440-98E8DAE2E99D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C8C06869-648F-47AB-B440-98E8DAE2E99D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C8C06869-648F-47AB-B440-98E8DAE2E99D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BAECC59-BC78-4732-B0A3-CFF8AE0097A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BAECC59-BC78-4732-B0A3-CFF8AE0097A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BAECC59-BC78-4732-B0A3-CFF8AE0097A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BAECC59-BC78-4732-B0A3-CFF8AE0097A5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

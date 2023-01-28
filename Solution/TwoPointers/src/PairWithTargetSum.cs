@@ -4,7 +4,7 @@ public class PairWithTargetSum
 {
     public static int[] Search(int[] arr, int targetSum)
     {
-        var (left, right) = (0, arr.Length);
+        var (left, right) = (0, arr.Length-1);
         while (left < right)
         {
             int sum = arr[left] + arr[right];

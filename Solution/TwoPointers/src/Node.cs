@@ -1,3 +1,13 @@
 namespace src;
 
-public record Node(int data, Node next = null);
+public class Node
+{
+    public int data;
+    public Node next;
+
+    public Node(int data, Node next = null)
+    {
+        this.data = data;
+        this.next = next;
+    }
+};

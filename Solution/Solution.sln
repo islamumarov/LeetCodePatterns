@@ -65,6 +65,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "src", "TwoPointers\src\src.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwoPointersTest", "TwoPointers\TwoPointersTest\TwoPointersTest.csproj", "{2FF6DECA-D8B4-4D74-BC95-563CFE0EB037}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OtherTest", "OtherTest\OtherTest.csproj", "{56C44E00-FD04-4CCA-B9C0-AEC82BE4A754}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -151,6 +153,10 @@ Global
 		{2FF6DECA-D8B4-4D74-BC95-563CFE0EB037}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2FF6DECA-D8B4-4D74-BC95-563CFE0EB037}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2FF6DECA-D8B4-4D74-BC95-563CFE0EB037}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56C44E00-FD04-4CCA-B9C0-AEC82BE4A754}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56C44E00-FD04-4CCA-B9C0-AEC82BE4A754}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56C44E00-FD04-4CCA-B9C0-AEC82BE4A754}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56C44E00-FD04-4CCA-B9C0-AEC82BE4A754}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -176,6 +182,7 @@ Global
 		{C8C06869-648F-47AB-B440-98E8DAE2E99D} = {2FA68760-7134-4A6E-BF03-5D38BF7D2FFD}
 		{0BAECC59-BC78-4732-B0A3-CFF8AE0097A5} = {B9DC068F-6FFE-4146-A1A8-5917D398C70C}
 		{2FF6DECA-D8B4-4D74-BC95-563CFE0EB037} = {B9DC068F-6FFE-4146-A1A8-5917D398C70C}
+		{56C44E00-FD04-4CCA-B9C0-AEC82BE4A754} = {2FA68760-7134-4A6E-BF03-5D38BF7D2FFD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F5A92075-92BF-4322-94B9-C2AF25C4CA90}

@@ -1,3 +1,5 @@
+using DataStructures;
+
 namespace src;
 
 public class TrimBinarySearchTree

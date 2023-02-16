@@ -1,4 +1,4 @@
-namespace src;
+namespace DataStructures;
 
 public class TreeNode
 {

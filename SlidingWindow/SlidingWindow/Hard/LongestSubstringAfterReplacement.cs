@@ -13,6 +13,9 @@ public static class LongestSubstringAfterReplacement
     public static int FindLength(string str, int k)
     {
         var maxLen = -1;
+        var windowStart = 0;
+        var maxRepeatLetterCount = 0;
+
 
         return maxLen;
     }

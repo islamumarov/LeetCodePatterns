@@ -17,6 +17,24 @@ public static class LongestSubstringAfterReplacement
         var maxRepeatLetterCount = 0;
 
 
+        var frequencyMap = new Dictionary<char, int>();
+
+        for (var windowEnd = 0; windowEnd < str.Length; windowEnd++)
+        {
+            var rightChar = str[windowEnd];
+            frequencyMap[rightChar] = frequencyMap.GetValueOrDefault(rightChar) + 1;
+            maxRepeatLetterCount = Math.Max(maxRepeatLetterCount, frequencyMap[rightChar]);
+
+            if (windowEnd - windowStart + 1 - maxRepeatLetterCount > k)
+            {
+                var leftChar = str[windowStart];
+                frequencyMap[leftChar] = frequencyMap[leftChar] - 1;
+                windowStart++;
+            }
+
+            maxLen = Math.Max(maxLen, windowEnd - windowStart + 1);
+        }
+
         return maxLen;
     }
 }

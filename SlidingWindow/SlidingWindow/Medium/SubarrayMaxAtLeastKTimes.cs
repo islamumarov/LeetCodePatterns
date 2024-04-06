@@ -1,30 +1,28 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace SlidingWindow.Medium;
+﻿namespace SlidingWindow.Medium;
 
 public class SubarrayMaxAtLeastKTimes
 {
     public long CountSubarrays(int[] nums, int k)
     {
         var max = nums.Max();
-        var maxAppear = 0;
-        var (l, r) = (0, 0);
-        while (r < nums.Length)
+        var count = 0;
+        var left = 0;
+        long res = 0;
+        foreach (var t in nums)
         {
-            k -= (nums[r++] == max) ? 1 : 0;
-
-            while (k == 0)
+            if (t == max)
             {
-                k += (nums[l++] == max) ? 1 : 0;
+                count++;
             }
 
-            maxAppear += l;
+            while (count == k)
+            {
+                if (nums[left] == max)
+                    count--;
+                left++;
+            }
+            res += left;
         }
-
-        return maxAppear;
+        return res;
     }
 }

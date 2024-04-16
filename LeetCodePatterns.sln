@@ -15,13 +15,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ModifiedBinarySearch", "Mod
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TwoPointers", "TwoPointers", "{BCB0AE4D-CA96-4A5A-8125-38704238DC03}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwoPointers", "TwoPointers\TwoPointers.csproj", "{48A2B564-4F3C-43F3-A382-4BCCE6DD6316}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwoPointers", "TwoPointers\TwoPointers\TwoPointers.csproj", "{48A2B564-4F3C-43F3-A382-4BCCE6DD6316}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Daily", "Daily", "{ECD1A471-5404-47AD-AEE7-BFB1BC830B47}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DailyLeetCode", "DailyLeetCode\DailyLeetCode.csproj", "{396A7B52-5344-4A71-BD1A-9701FD5C7782}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DailyLeetCode.Test", "DailyLeetCode.Test\DailyLeetCode.Test.csproj", "{B6A5669E-D197-4420-A13E-B408849C53A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwoPointersTests", "TwoPointers\TwoPointersTests\TwoPointersTests.csproj", "{7D553372-6350-4A99-9059-8F396BAEF321}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -53,6 +55,10 @@ Global
 		{B6A5669E-D197-4420-A13E-B408849C53A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B6A5669E-D197-4420-A13E-B408849C53A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B6A5669E-D197-4420-A13E-B408849C53A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D553372-6350-4A99-9059-8F396BAEF321}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D553372-6350-4A99-9059-8F396BAEF321}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D553372-6350-4A99-9059-8F396BAEF321}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D553372-6350-4A99-9059-8F396BAEF321}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -64,6 +70,7 @@ Global
 		{48A2B564-4F3C-43F3-A382-4BCCE6DD6316} = {BCB0AE4D-CA96-4A5A-8125-38704238DC03}
 		{396A7B52-5344-4A71-BD1A-9701FD5C7782} = {ECD1A471-5404-47AD-AEE7-BFB1BC830B47}
 		{B6A5669E-D197-4420-A13E-B408849C53A3} = {ECD1A471-5404-47AD-AEE7-BFB1BC830B47}
+		{7D553372-6350-4A99-9059-8F396BAEF321} = {BCB0AE4D-CA96-4A5A-8125-38704238DC03}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {86DEDE4A-7156-45A1-BEB3-3C62CF81256E}

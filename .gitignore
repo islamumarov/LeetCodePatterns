@@ -724,3 +724,4 @@ FodyWeavers.xsd
 # End of https://www.toptal.com/developers/gitignore/api/csharp
 /.dockerignore
 /.config/dotnet-tools.json
+*.json

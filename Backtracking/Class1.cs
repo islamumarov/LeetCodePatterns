@@ -12,5 +12,7 @@ public class WordSearch
                 words.Add(new List<string>());
             }
         }
+
+        return false;
     }
 }

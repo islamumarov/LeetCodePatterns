@@ -6,8 +6,7 @@ public class MaximumOrderedTriplet
     {
 
         if (nums.Length < 3) return 0;
-        var maxQueue = new PriorityQueue<int[], long>(comparer: Comparer<long>.Create(((i, i1) => (i < i1) ? 1 : -1)));
-
+        var maxValue = long.MinValue;
         for (int i = 0; i < nums.Length; i++)
         {
             for (int j = i+1; j < nums.Length; j++)
@@ -15,18 +14,26 @@ public class MaximumOrderedTriplet
                 for (int k = j+1; k < nums.Length; k++)
                 {
                     long val = (nums[i] - nums[j]) * (long) nums[k];
-                    maxQueue.Enqueue([i,j,k], val);
+                    maxValue = Math.Max(maxValue, val);
                 }
             }
         }
         
-        var max = maxQueue.Dequeue();
-        long value = (nums[max[0]] - nums[max[1]]) * (long)nums[max[2]];
-        return value < 0 ? 0 : value;
+        return maxValue < 0 ? 0 : maxValue;
     }
     
     public static long MaximumTripletValue_PrefixSum(int[] nums)
     {
+        if (nums.Length < 3) return 0;
+        
+        var maxVal = long.MinValue;
+
+        for (int i = 0; i < nums.Length; i++)
+        {
+            
+        }
+        
+        
         return 0;
     }
 }

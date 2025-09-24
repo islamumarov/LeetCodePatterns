@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCodePatterns", "LeetCodePatterns.csproj", "{2470AF41-FFF2-D8B6-7541-1EB4933D832C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TwoPointers", "TwoPointers", "{D53C9887-FFA4-12D6-0623-07A1816A243F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwoPointers", "TwoPointers\TwoPointers\TwoPointers.csproj", "{3D4A3AAD-B22B-4195-B271-3E6C63E1B49F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2470AF41-FFF2-D8B6-7541-1EB4933D832C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2470AF41-FFF2-D8B6-7541-1EB4933D832C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2470AF41-FFF2-D8B6-7541-1EB4933D832C}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{2470AF41-FFF2-D8B6-7541-1EB4933D832C}.Debug|x64.Build.0 = Debug|Any CPU
+		{2470AF41-FFF2-D8B6-7541-1EB4933D832C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{2470AF41-FFF2-D8B6-7541-1EB4933D832C}.Debug|x86.Build.0 = Debug|Any CPU
+		{2470AF41-FFF2-D8B6-7541-1EB4933D832C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2470AF41-FFF2-D8B6-7541-1EB4933D832C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2470AF41-FFF2-D8B6-7541-1EB4933D832C}.Release|x64.ActiveCfg = Release|Any CPU
+		{2470AF41-FFF2-D8B6-7541-1EB4933D832C}.Release|x64.Build.0 = Release|Any CPU
+		{2470AF41-FFF2-D8B6-7541-1EB4933D832C}.Release|x86.ActiveCfg = Release|Any CPU
+		{2470AF41-FFF2-D8B6-7541-1EB4933D832C}.Release|x86.Build.0 = Release|Any CPU
+		{3D4A3AAD-B22B-4195-B271-3E6C63E1B49F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D4A3AAD-B22B-4195-B271-3E6C63E1B49F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D4A3AAD-B22B-4195-B271-3E6C63E1B49F}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{3D4A3AAD-B22B-4195-B271-3E6C63E1B49F}.Debug|x64.Build.0 = Debug|Any CPU
+		{3D4A3AAD-B22B-4195-B271-3E6C63E1B49F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{3D4A3AAD-B22B-4195-B271-3E6C63E1B49F}.Debug|x86.Build.0 = Debug|Any CPU
+		{3D4A3AAD-B22B-4195-B271-3E6C63E1B49F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D4A3AAD-B22B-4195-B271-3E6C63E1B49F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D4A3AAD-B22B-4195-B271-3E6C63E1B49F}.Release|x64.ActiveCfg = Release|Any CPU
+		{3D4A3AAD-B22B-4195-B271-3E6C63E1B49F}.Release|x64.Build.0 = Release|Any CPU
+		{3D4A3AAD-B22B-4195-B271-3E6C63E1B49F}.Release|x86.ActiveCfg = Release|Any CPU
+		{3D4A3AAD-B22B-4195-B271-3E6C63E1B49F}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3D4A3AAD-B22B-4195-B271-3E6C63E1B49F} = {D53C9887-FFA4-12D6-0623-07A1816A243F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B67226D8-7741-4E48-BE34-AF507F9D8236}
+	EndGlobalSection
+EndGlobal

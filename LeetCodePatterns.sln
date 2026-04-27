@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DFS", "DFS.BFS\DFS\DFS.cspr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DFS.Tests", "DFS.BFS\DFS.Tests\DFS.Tests.csproj", "{30CCACC5-2243-4B37-AE8A-B05DCE26B1FC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCodePatterns", "LeetCodePatterns\LeetCodePatterns.csproj", "{155E356A-F22D-4743-89F2-524A6810F346}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -103,6 +105,18 @@ Global
 		{30CCACC5-2243-4B37-AE8A-B05DCE26B1FC}.Release|x64.Build.0 = Release|Any CPU
 		{30CCACC5-2243-4B37-AE8A-B05DCE26B1FC}.Release|x86.ActiveCfg = Release|Any CPU
 		{30CCACC5-2243-4B37-AE8A-B05DCE26B1FC}.Release|x86.Build.0 = Release|Any CPU
+		{155E356A-F22D-4743-89F2-524A6810F346}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{155E356A-F22D-4743-89F2-524A6810F346}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{155E356A-F22D-4743-89F2-524A6810F346}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{155E356A-F22D-4743-89F2-524A6810F346}.Debug|x64.Build.0 = Debug|Any CPU
+		{155E356A-F22D-4743-89F2-524A6810F346}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{155E356A-F22D-4743-89F2-524A6810F346}.Debug|x86.Build.0 = Debug|Any CPU
+		{155E356A-F22D-4743-89F2-524A6810F346}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{155E356A-F22D-4743-89F2-524A6810F346}.Release|Any CPU.Build.0 = Release|Any CPU
+		{155E356A-F22D-4743-89F2-524A6810F346}.Release|x64.ActiveCfg = Release|Any CPU
+		{155E356A-F22D-4743-89F2-524A6810F346}.Release|x64.Build.0 = Release|Any CPU
+		{155E356A-F22D-4743-89F2-524A6810F346}.Release|x86.ActiveCfg = Release|Any CPU
+		{155E356A-F22D-4743-89F2-524A6810F346}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

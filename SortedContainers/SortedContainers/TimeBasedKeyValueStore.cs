@@ -1,6 +1,12 @@
 ﻿namespace SortedContainers;
 
-public class TimeMap
+public interface ITimeMap
+{
+    void Set(string key, string value, int timestamp);
+    string Get(string key, int timestamp);
+}
+
+public class TimeMap : ITimeMap
 {
     private readonly Dictionary<string, SortedList<int, string>> data;
 
@@ -11,8 +17,12 @@ public class TimeMap
 
     public void Set(string key, string value, int timestamp)
     {
-        var value1 = data.GetValueOrDefault(key, new SortedList<int, string>());
-        value1.Add(timestamp, value);
+        if (!data.TryGetValue(key, out var list))
+        {
+            list = new SortedList<int, string>();
+            data[key] = list;
+        }
+        list.Add(timestamp, value);
     }
 
     public string Get(string key, int timestamp)
@@ -25,7 +35,7 @@ public class TimeMap
         while (left <= right)
         {
             var mid = left + (right - left) / 2;
-            if (keys.Keys[mid] == timestamp) return keys[mid];
+            if (keys.Keys[mid] == timestamp) return keys.Values[mid];
             if (keys.Keys[mid] <= timestamp)
             {
                 ans = mid;
@@ -38,7 +48,7 @@ public class TimeMap
             }
         }
 
-        if (ans != -1) return keys.Keys[ans] < timestamp ? keys[ans] : "";
+        if (ans != -1) return keys.Values[ans];
 
         return "";
     }

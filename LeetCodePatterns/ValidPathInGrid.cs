@@ -1,3 +1,5 @@
+using System.Collections;
+
 namespace LeetCodePatterns;
 
 public class ValidPathInGrid
@@ -18,7 +20,8 @@ public class ValidPathInGrid
      * Notice that you are not allowed to change any street.
      * Return true if there is a valid path in the grid or false otherwise.
      */
-    public bool HasValidPath(int[][] grid) {
-        
+    public bool HasValidPath(int[][] grid)
+    {
+        return false;
     }
 }

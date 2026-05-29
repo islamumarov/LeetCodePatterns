@@ -1,3 +1,5 @@
+using System.Collections;
+
 namespace LeetCodePatterns;
 
 public class ValidPathInGrid

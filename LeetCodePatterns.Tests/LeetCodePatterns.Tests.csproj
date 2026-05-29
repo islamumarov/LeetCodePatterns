@@ -19,7 +19,12 @@
     </ItemGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\LeetCodePatterns\LeetCodePatterns.csproj" />
       <ProjectReference Include="..\TwoPointers\TwoPointers\TwoPointers.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Remove="ScheduleTasksTest.CS" />
     </ItemGroup>
 
 </Project>

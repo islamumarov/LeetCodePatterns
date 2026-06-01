@@ -1,6 +1,6 @@
 ﻿namespace LeetCode.Arrays;
 
-public class SingleThreadedCPU
+public class SingleThreadedCpu
 {
     public static int[] GetOrder(int[][] tasks)
     {

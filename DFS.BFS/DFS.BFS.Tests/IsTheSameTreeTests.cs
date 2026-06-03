@@ -1,4 +1,4 @@
-namespace DFS.Tests;
+namespace DFS.BFS.Tests;
 
 public class IsTheSameTreeTests
 {
